@@ -1,7 +1,7 @@
 # Amber
 Personalized split keyboard based on Zebra experimentation
 
-# Making a PCB sandwich keyboard stasting from ergogen
+# Making a PCB sandwich keyboard starting with an ergogen definition
 
 1. Create PCB and outlines from ergogen
 2. Create a Kicad schematic with switches and diodes, matching the ids created by ergogen, make a PCB based on that
