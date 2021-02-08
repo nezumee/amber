@@ -1,0 +1,8 @@
+
+*.gbr
+*.gbrjob
+*.drl
+fp-info-cache
+*.kicad_pcb-bak
+*.sch-bak
+_autosave-*

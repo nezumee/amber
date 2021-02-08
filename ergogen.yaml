@@ -1,0 +1,154 @@
+points:
+  key:
+    bind: 9.5
+    footprints:
+      mx:
+        type: mx
+        nets:
+          from: '!colrow'
+          to: '!colrow'
+      diode:
+        type: diode
+        anchor:
+          rotate: 180
+          shift: [0, -9.5]
+        nets:
+          from: '!colrow'
+          to: '!colrow'
+  zones:
+    matrix:
+      anchor:
+      rows:
+        bottom:
+        home:
+        top:
+      columns:
+        pinky:
+          rotate: 5
+          rows:
+            top:
+              skip: true
+          key:
+            footprints:
+              diode:
+                anchor:
+                  rotate: 90
+                  shift: [9.5, 0]
+        ring:
+          rotate: -5
+          # hinge at the bottom right corner
+          # of the bottom pinky's 14x14 hole
+          # for historical reasons...
+          origin: [-12, -19]
+          stagger: 8
+        middle:
+          stagger: 6
+        index:
+          stagger: -10
+        inner:
+          stagger: -6
+    thumbfan:
+      anchor:
+        ref: matrix_index_bottom
+        shift: [-7, -24]
+      key:
+        footprints:
+          diode:
+            anchor:
+              rotate: 180
+              shift: [0, 9.5]
+      columns:
+        near:
+          rotate: -17
+        home:
+        far:
+          spread: 19
+          rotate: -22
+          origin: [-7, -9]
+      rows:
+        thumb:
+outlines:
+  exports:
+    outer:
+      main:
+        type: keys
+        side: left
+        size: 3
+        corner: 0
+        bound: true
+    panel:
+      main:
+        type: keys
+        side: left
+        size: 10
+        corner: 0
+        bound: true
+      holes:
+        type: keys
+        side: left
+        size: [15, 14]
+        corner: 0
+        bound: false
+        operation: subtract
+      notches:
+        type: keys
+        side: left
+        size: [15, 8]
+        corner: 0
+        bound: false
+        operation: add
+      center:
+        type: keys
+        side: left
+        size: 14
+        corner: 0
+        bound: false
+        operation: subtract
+pcbs:
+  main:
+    footprints:
+      hi:
+        type: pad
+        anchor:
+          ref: matrix_index_top
+          shift: [9.5, -9.5]
+        nets:
+          net: a
+        params:
+          text: P
+      hm:
+        type: pad
+        anchor:
+          ref: matrix_middle_top
+          shift: [-9.5, -9.5]
+        nets:
+          net: a
+        params:
+          text: P
+      hp:
+        type: pad
+        anchor:
+          ref: matrix_pinky_home
+          shift: [9.5, -9.5]
+        nets:
+          net: a
+        params:
+          text: P
+      htn:
+        type: pad
+        anchor:
+          ref: thumbfan_near_thumb
+          shift: [-11, 0]
+        nets:
+          net: a
+        params:
+          text: P
+      htf:
+        type: pad
+        anchor:
+          ref: thumbfan_home_thumb
+          shift: [11, 0]
+        nets:
+          net: a
+        params:
+          text: P
