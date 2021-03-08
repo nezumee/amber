@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name kbd)(type KiCad)(uri ${KIPRJMOD}/../zebra/libraries/kbd/kicad-footprints/kbd.pretty)(options "")(descr ""))
   (lib (name amber)(type KiCad)(uri ${KIPRJMOD}/amber.pretty)(options "")(descr ""))
+  (lib (name "CUI jack")(type KiCad)(uri "${KIPRJMOD}/Libraries/CUI jack")(options "")(descr ""))
 )
