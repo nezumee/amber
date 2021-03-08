@@ -754,7 +754,7 @@ Text GLabel 9400 4850 2    50   Input ~ 0
 Serial
 Wire Wire Line
 	9025 4850 9400 4850
-Text GLabel 9750 2600 2    50   Input ~ 0
+Text GLabel 9750 2200 2    50   Input ~ 0
 Serial
 $Comp
 L Device:LED D18
@@ -854,7 +854,7 @@ Text GLabel 6250 4825 0    50   Input ~ 0
 RE
 Text GLabel 9750 2300 2    50   Input ~ 0
 CE
-Text GLabel 9750 2200 2    50   Input ~ 0
+Text GLabel 9750 2600 2    50   Input ~ 0
 RE
 Wire Wire Line
 	6450 4025 6450 3925
