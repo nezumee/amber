@@ -19,7 +19,7 @@ U 1 1 601F0080
 P 2375 3125
 F 0 "S1" H 2375 3410 50  0000 C CNN
 F 1 "SW_Push" H 2375 3319 50  0000 C CNN
-F 2 "kbd:CherryMX_MidHeight_Hotswap" H 2375 3325 50  0001 C CNN
+F 2 "amber:CherryMX_MidHeight_Hotswap" H 2375 3325 50  0001 C CNN
 F 3 "~" H 2375 3325 50  0001 C CNN
 	1    2375 3125
 	1    0    0    -1  
@@ -51,7 +51,7 @@ U 1 1 601FD804
 P 2375 2575
 F 0 "S2" H 2375 2860 50  0000 C CNN
 F 1 "SW_Push" H 2375 2769 50  0000 C CNN
-F 2 "kbd:CherryMX_MidHeight_Hotswap" H 2375 2775 50  0001 C CNN
+F 2 "amber:CherryMX_MidHeight_Hotswap" H 2375 2775 50  0001 C CNN
 F 3 "~" H 2375 2775 50  0001 C CNN
 	1    2375 2575
 	1    0    0    -1  
@@ -84,7 +84,7 @@ U 1 1 601FEC56
 P 3450 3125
 F 0 "S3" H 3450 3410 50  0000 C CNN
 F 1 "SW_Push" H 3450 3319 50  0000 C CNN
-F 2 "kbd:CherryMX_MidHeight_Hotswap" H 3450 3325 50  0001 C CNN
+F 2 "amber:CherryMX_MidHeight_Hotswap" H 3450 3325 50  0001 C CNN
 F 3 "~" H 3450 3325 50  0001 C CNN
 	1    3450 3125
 	1    0    0    -1  
@@ -117,7 +117,7 @@ U 1 1 60200358
 P 3450 2575
 F 0 "S4" H 3450 2860 50  0000 C CNN
 F 1 "SW_Push" H 3450 2769 50  0000 C CNN
-F 2 "kbd:CherryMX_MidHeight_Hotswap" H 3450 2775 50  0001 C CNN
+F 2 "amber:CherryMX_MidHeight_Hotswap" H 3450 2775 50  0001 C CNN
 F 3 "~" H 3450 2775 50  0001 C CNN
 	1    3450 2575
 	1    0    0    -1  
@@ -171,7 +171,7 @@ U 1 1 602036CE
 P 4525 3125
 F 0 "S6" H 4525 3410 50  0000 C CNN
 F 1 "SW_Push" H 4525 3319 50  0000 C CNN
-F 2 "kbd:CherryMX_MidHeight_Hotswap" H 4525 3325 50  0001 C CNN
+F 2 "amber:CherryMX_MidHeight_Hotswap" H 4525 3325 50  0001 C CNN
 F 3 "~" H 4525 3325 50  0001 C CNN
 	1    4525 3125
 	1    0    0    -1  
@@ -203,7 +203,7 @@ U 1 1 602036E7
 P 4525 2575
 F 0 "S7" H 4525 2860 50  0000 C CNN
 F 1 "SW_Push" H 4525 2769 50  0000 C CNN
-F 2 "kbd:CherryMX_MidHeight_Hotswap" H 4525 2775 50  0001 C CNN
+F 2 "amber:CherryMX_MidHeight_Hotswap" H 4525 2775 50  0001 C CNN
 F 3 "~" H 4525 2775 50  0001 C CNN
 	1    4525 2575
 	1    0    0    -1  
@@ -236,7 +236,7 @@ U 1 1 60203701
 P 4525 2025
 F 0 "S8" H 4525 2310 50  0000 C CNN
 F 1 "SW_Push" H 4525 2219 50  0000 C CNN
-F 2 "kbd:CherryMX_MidHeight_Hotswap" H 4525 2225 50  0001 C CNN
+F 2 "amber:CherryMX_MidHeight_Hotswap" H 4525 2225 50  0001 C CNN
 F 3 "~" H 4525 2225 50  0001 C CNN
 	1    4525 2025
 	1    0    0    -1  
@@ -272,7 +272,7 @@ U 1 1 60206DF0
 P 5600 3125
 F 0 "S9" H 5600 3410 50  0000 C CNN
 F 1 "SW_Push" H 5600 3319 50  0000 C CNN
-F 2 "kbd:CherryMX_MidHeight_Hotswap" H 5600 3325 50  0001 C CNN
+F 2 "amber:CherryMX_MidHeight_Hotswap" H 5600 3325 50  0001 C CNN
 F 3 "~" H 5600 3325 50  0001 C CNN
 	1    5600 3125
 	1    0    0    -1  
@@ -304,7 +304,7 @@ U 1 1 60206E09
 P 5600 2575
 F 0 "S10" H 5600 2860 50  0000 C CNN
 F 1 "SW_Push" H 5600 2769 50  0000 C CNN
-F 2 "kbd:CherryMX_MidHeight_Hotswap" H 5600 2775 50  0001 C CNN
+F 2 "amber:CherryMX_MidHeight_Hotswap" H 5600 2775 50  0001 C CNN
 F 3 "~" H 5600 2775 50  0001 C CNN
 	1    5600 2575
 	1    0    0    -1  
@@ -337,7 +337,7 @@ U 1 1 60206E23
 P 5600 2025
 F 0 "S11" H 5600 2310 50  0000 C CNN
 F 1 "SW_Push" H 5600 2219 50  0000 C CNN
-F 2 "kbd:CherryMX_MidHeight_Hotswap" H 5600 2225 50  0001 C CNN
+F 2 "amber:CherryMX_MidHeight_Hotswap" H 5600 2225 50  0001 C CNN
 F 3 "~" H 5600 2225 50  0001 C CNN
 	1    5600 2025
 	1    0    0    -1  
@@ -373,7 +373,7 @@ U 1 1 60209BAB
 P 6675 3125
 F 0 "S12" H 6675 3410 50  0000 C CNN
 F 1 "SW_Push" H 6675 3319 50  0000 C CNN
-F 2 "kbd:CherryMX_MidHeight_Hotswap" H 6675 3325 50  0001 C CNN
+F 2 "amber:CherryMX_MidHeight_Hotswap" H 6675 3325 50  0001 C CNN
 F 3 "~" H 6675 3325 50  0001 C CNN
 	1    6675 3125
 	1    0    0    -1  
@@ -405,7 +405,7 @@ U 1 1 60209BC4
 P 6675 2575
 F 0 "S13" H 6675 2860 50  0000 C CNN
 F 1 "SW_Push" H 6675 2769 50  0000 C CNN
-F 2 "kbd:CherryMX_MidHeight_Hotswap" H 6675 2775 50  0001 C CNN
+F 2 "amber:CherryMX_MidHeight_Hotswap" H 6675 2775 50  0001 C CNN
 F 3 "~" H 6675 2775 50  0001 C CNN
 	1    6675 2575
 	1    0    0    -1  
@@ -438,7 +438,7 @@ U 1 1 60209BDE
 P 6675 2025
 F 0 "S14" H 6675 2310 50  0000 C CNN
 F 1 "SW_Push" H 6675 2219 50  0000 C CNN
-F 2 "kbd:CherryMX_MidHeight_Hotswap" H 6675 2225 50  0001 C CNN
+F 2 "amber:CherryMX_MidHeight_Hotswap" H 6675 2225 50  0001 C CNN
 F 3 "~" H 6675 2225 50  0001 C CNN
 	1    6675 2025
 	1    0    0    -1  
@@ -472,7 +472,7 @@ U 1 1 602025FC
 P 3450 2025
 F 0 "S5" H 3450 2310 50  0000 C CNN
 F 1 "SW_Push" H 3450 2219 50  0000 C CNN
-F 2 "kbd:CherryMX_MidHeight_Hotswap" H 3450 2225 50  0001 C CNN
+F 2 "amber:CherryMX_MidHeight_Hotswap" H 3450 2225 50  0001 C CNN
 F 3 "~" H 3450 2225 50  0001 C CNN
 	1    3450 2025
 	1    0    0    -1  
@@ -498,7 +498,7 @@ U 1 1 601F9012
 P 7000 4225
 F 0 "S16" H 7000 4510 50  0000 C CNN
 F 1 "SW_Push" H 7000 4419 50  0000 C CNN
-F 2 "kbd:CherryMX_MidHeight_Hotswap" H 7000 4425 50  0001 C CNN
+F 2 "amber:CherryMX_MidHeight_Hotswap" H 7000 4425 50  0001 C CNN
 F 3 "~" H 7000 4425 50  0001 C CNN
 	1    7000 4225
 	0    1    1    0   
@@ -530,7 +530,7 @@ U 1 1 601F902C
 P 7550 4225
 F 0 "S17" H 7550 4510 50  0000 C CNN
 F 1 "SW_Push" H 7550 4419 50  0000 C CNN
-F 2 "kbd:CherryMX_MidHeight_Hotswap" H 7550 4425 50  0001 C CNN
+F 2 "amber:CherryMX_MidHeight_Hotswap" H 7550 4425 50  0001 C CNN
 F 3 "~" H 7550 4425 50  0001 C CNN
 	1    7550 4225
 	0    1    1    0   
