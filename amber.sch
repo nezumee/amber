@@ -686,7 +686,7 @@ F 3 "~" H 9350 3700 50  0001 C CNN
 	1    9350 3700
 	1    0    0    -1  
 $EndComp
-Text GLabel 8350 2000 0    50   Input ~ 0
+Text GLabel 7875 2000 0    50   Input ~ 0
 RST
 Text GLabel 9050 3700 0    50   Input ~ 0
 RST
@@ -708,18 +708,14 @@ Wire Wire Line
 $Comp
 L power:VCC #PWR03
 U 1 1 6023FBA7
-P 8000 1800
-F 0 "#PWR03" H 8000 1650 50  0001 C CNN
-F 1 "VCC" H 8015 1973 50  0000 C CNN
-F 2 "" H 8000 1800 50  0001 C CNN
-F 3 "" H 8000 1800 50  0001 C CNN
-	1    8000 1800
+P 11050 1650
+F 0 "#PWR03" H 11050 1500 50  0001 C CNN
+F 1 "VCC" H 11065 1823 50  0000 C CNN
+F 2 "" H 11050 1650 50  0001 C CNN
+F 3 "" H 11050 1650 50  0001 C CNN
+	1    11050 1650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8350 2100 8000 2100
-Wire Wire Line
-	8000 2100 8000 1800
 $Comp
 L power:GND #PWR05
 U 1 1 60243D5F
@@ -754,7 +750,7 @@ Text GLabel 9400 4850 2    50   Input ~ 0
 Serial
 Wire Wire Line
 	9025 4850 9400 4850
-Text GLabel 9750 2200 2    50   Input ~ 0
+Text GLabel 10550 1650 2    50   Input ~ 0
 Serial
 $Comp
 L Device:LED D18
@@ -858,30 +854,7 @@ Text GLabel 9750 2600 2    50   Input ~ 0
 RE
 Wire Wire Line
 	6450 4025 6450 3925
-$Comp
-L power:GND #PWR0101
-U 1 1 602E2507
-P 10175 2125
-F 0 "#PWR0101" H 10175 1875 50  0001 C CNN
-F 1 "GND" H 10180 1952 50  0000 C CNN
-F 2 "" H 10175 2125 50  0001 C CNN
-F 3 "" H 10175 2125 50  0001 C CNN
-	1    10175 2125
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9750 2100 10175 2100
-Wire Wire Line
-	10175 2100 10175 2125
-Wire Wire Line
-	9750 2000 10175 2000
-Wire Wire Line
-	10175 2000 10175 2100
-Connection ~ 10175 2100
-NoConn ~ 8350 1800
-NoConn ~ 9750 1800
-NoConn ~ 9750 1900
-NoConn ~ 7875 2650
+NoConn ~ 9750 2200
 NoConn ~ 9025 4650
 $Comp
 L SJ-43504-SMT-TR:SJ-43504-SMT-TR J1
@@ -901,4 +874,126 @@ F 8 "None" H 8825 4550 50  0001 L BNN "PACKAGE"
 $EndComp
 NoConn ~ 9025 4350
 NoConn ~ 9025 4750
+$Comp
+L Jumper:Jumper_2_Bridged JP1
+U 1 1 6058CB5A
+P 7450 1850
+F 0 "JP1" V 7404 1908 50  0000 L CNN
+F 1 "Jumper_2_Bridged" V 7495 1908 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 7450 1850 50  0001 C CNN
+F 3 "~" H 7450 1850 50  0001 C CNN
+	1    7450 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9750 1900 9900 1900
+Wire Wire Line
+	9900 1900 9900 1350
+Wire Wire Line
+	9900 1350 7625 1350
+Wire Wire Line
+	7625 1350 7625 1900
+Connection ~ 7625 1900
+Wire Wire Line
+	7450 2100 7450 2050
+Wire Wire Line
+	7450 2100 8350 2100
+Wire Wire Line
+	11050 1700 11050 1650
+$Comp
+L Jumper:Jumper_2_Open JP6
+U 1 1 6059F1AB
+P 11050 1900
+F 0 "JP6" V 11004 1998 50  0000 L CNN
+F 1 "Jumper_2_Open" V 11095 1998 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 11050 1900 50  0001 C CNN
+F 3 "~" H 11050 1900 50  0001 C CNN
+	1    11050 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 605A68A1
+P 7450 1600
+F 0 "#PWR0101" H 7450 1450 50  0001 C CNN
+F 1 "VCC" H 7465 1773 50  0000 C CNN
+F 2 "" H 7450 1600 50  0001 C CNN
+F 3 "" H 7450 1600 50  0001 C CNN
+	1    7450 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 1650 7450 1600
+$Comp
+L Jumper:Jumper_2_Bridged JP2
+U 1 1 605AB58C
+P 8100 2000
+F 0 "JP2" H 8100 1775 50  0000 C CNN
+F 1 "Jumper_2_Bridged" H 8100 1866 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 8100 2000 50  0001 C CNN
+F 3 "~" H 8100 2000 50  0001 C CNN
+	1    8100 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8300 2000 8350 2000
+Wire Wire Line
+	7900 2000 7875 2000
+Text GLabel 10750 2000 2    50   Input ~ 0
+RST
+$Comp
+L Jumper:Jumper_2_Open JP5
+U 1 1 605B9572
+P 10475 2000
+F 0 "JP5" H 10475 1775 50  0000 C CNN
+F 1 "Jumper_2_Open" H 10475 1866 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 10475 2000 50  0001 C CNN
+F 3 "~" H 10475 2000 50  0001 C CNN
+	1    10475 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9750 2000 10275 2000
+Wire Wire Line
+	10675 2000 10750 2000
+Wire Wire Line
+	9750 2100 11050 2100
+$Comp
+L Jumper:Jumper_2_Bridged JP3
+U 1 1 605DDE38
+P 10250 1650
+F 0 "JP3" H 10250 1425 50  0000 C CNN
+F 1 "Jumper_2_Bridged" H 10250 1516 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 10250 1650 50  0001 C CNN
+F 3 "~" H 10250 1650 50  0001 C CNN
+	1    10250 1650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10550 1650 10450 1650
+Wire Wire Line
+	10050 1650 9750 1650
+Wire Wire Line
+	9750 1650 9750 1800
+Text GLabel 7925 1575 0    50   Input ~ 0
+Serial
+$Comp
+L Jumper:Jumper_2_Open JP4
+U 1 1 605E6466
+P 8175 1575
+F 0 "JP4" H 8175 1350 50  0000 C CNN
+F 1 "Jumper_2_Open" H 8175 1441 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 8175 1575 50  0001 C CNN
+F 3 "~" H 8175 1575 50  0001 C CNN
+	1    8175 1575
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7925 1575 7975 1575
+Wire Wire Line
+	8375 1575 8375 1675
+Wire Wire Line
+	8375 1675 8350 1675
+Wire Wire Line
+	8350 1675 8350 1800
 $EndSCHEMATC
