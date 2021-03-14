@@ -477,21 +477,8 @@ F 3 "~" H 3450 2225 50  0001 C CNN
 	1    3450 2025
 	1    0    0    -1  
 $EndComp
-$Comp
-L Diode:1N4148 D15
-U 1 1 601F9003
-P 6450 4675
-F 0 "D15" H 6450 4458 50  0000 C CNN
-F 1 "1N4148" H 6450 4549 50  0000 C CNN
-F 2 "amber:Diode_THT7.6_SOD123" H 6450 4500 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6450 4675 50  0001 C CNN
-	1    6450 4675
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6450 4425 6450 4525
-Wire Wire Line
-	6450 4825 6250 4825
 $Comp
 L Switch:SW_Push S16
 U 1 1 601F9012
@@ -846,7 +833,7 @@ Wire Wire Line
 	6200 2225 7275 2225
 Text GLabel 6450 3925 1    50   Input ~ 0
 CE
-Text GLabel 6250 4825 0    50   Input ~ 0
+Text GLabel 6450 4525 3    50   Input ~ 0
 RE
 Text GLabel 9750 2300 2    50   Input ~ 0
 CE
