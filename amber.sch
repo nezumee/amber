@@ -740,17 +740,6 @@ Wire Wire Line
 Text GLabel 10550 1650 2    50   Input ~ 0
 Serial
 $Comp
-L Device:LED D18
-U 1 1 6023A331
-P 8250 5425
-F 0 "D18" H 8243 5170 50  0000 C CNN
-F 1 "LED" H 8243 5261 50  0000 C CNN
-F 2 "LED_THT:LED_D3.0mm" H 8250 5425 50  0001 C CNN
-F 3 "~" H 8250 5425 50  0001 C CNN
-	1    8250 5425
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:R R1
 U 1 1 6023C678
 P 8800 5425
@@ -778,56 +767,13 @@ Wire Wire Line
 	9175 5425 9175 5475
 Wire Wire Line
 	8400 5425 8650 5425
-Wire Wire Line
-	8100 5425 7875 5425
-Text GLabel 7875 5425 0    50   Input ~ 0
+Text GLabel 7775 5225 0    50   Input ~ 0
 LED1
 Text GLabel 9750 2900 2    50   Input ~ 0
 LED1
 Text GLabel 9750 2800 2    50   Input ~ 0
 LED2
-$Comp
-L Device:LED D19
-U 1 1 60247971
-P 8250 6000
-F 0 "D19" H 8243 5745 50  0000 C CNN
-F 1 "LED" H 8243 5836 50  0000 C CNN
-F 2 "LED_THT:LED_D3.0mm" H 8250 6000 50  0001 C CNN
-F 3 "~" H 8250 6000 50  0001 C CNN
-	1    8250 6000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 6024797B
-P 8800 6000
-F 0 "R2" V 8593 6000 50  0000 C CNN
-F 1 "R" V 8684 6000 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 8730 6000 50  0001 C CNN
-F 3 "~" H 8800 6000 50  0001 C CNN
-	1    8800 6000
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR08
-U 1 1 60247985
-P 9175 6050
-F 0 "#PWR08" H 9175 5800 50  0001 C CNN
-F 1 "GND" H 9180 5877 50  0000 C CNN
-F 2 "" H 9175 6050 50  0001 C CNN
-F 3 "" H 9175 6050 50  0001 C CNN
-	1    9175 6050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8950 6000 9175 6000
-Wire Wire Line
-	9175 6000 9175 6050
-Wire Wire Line
-	8400 6000 8650 6000
-Wire Wire Line
-	8100 6000 7875 6000
-Text GLabel 7875 6000 0    50   Input ~ 0
+Text GLabel 7775 5425 0    50   Input ~ 0
 LED2
 Wire Wire Line
 	6200 2225 7275 2225
@@ -841,7 +787,6 @@ Text GLabel 9750 2600 2    50   Input ~ 0
 RE
 Wire Wire Line
 	6450 4025 6450 3925
-NoConn ~ 9750 2200
 NoConn ~ 9025 4650
 $Comp
 L SJ-43504-SMT-TR:SJ-43504-SMT-TR J1
@@ -983,4 +928,25 @@ Wire Wire Line
 	8375 1675 8350 1675
 Wire Wire Line
 	8350 1675 8350 1800
+$Comp
+L Device:LED_BRCG D15
+U 1 1 604EF23C
+P 8200 5425
+F 0 "D15" H 8200 4958 50  0000 C CNN
+F 1 "LED_BRCG" H 8200 5049 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm-4_RGB_Wide_Pins" H 8200 5375 50  0001 C CNN
+F 3 "~" H 8200 5375 50  0001 C CNN
+	1    8200 5425
+	-1   0    0    1   
+$EndComp
+Text GLabel 7775 5625 0    50   Input ~ 0
+LED3
+Text GLabel 9750 2200 2    50   Input ~ 0
+LED3
+Wire Wire Line
+	8000 5425 7775 5425
+Wire Wire Line
+	7775 5225 8000 5225
+Wire Wire Line
+	7775 5625 8000 5625
 $EndSCHEMATC
