@@ -16,14 +16,19 @@ Rough steps:
 Many keyboards using ProMicro (like Corne) either have the ProMicro exposed, or use a small plate to cover it separately from the switch plate. While the tech prototype look of showing the MCU is nice, sometimes you want something cleaner looking, and also less prone to gathering visible dust. With this in mind, I decided to make the front plate that serves both as a plate for the switches and also covers all the components on the PCB. This led to a few challenges:
 
 1. Fit the ProMicro and its socket (yes, I didn't want to solder it to the PCB directly) between the PCB and the front plate. This required a surprising amount of effort:
-  * Use the thinnest sockets I could find - Peel-a-way sockets (https://keeb.io/products/peel-a-way-sockets-for-pro-micros). These seem to be difficult to source, luckily I got some beforehand. Note that these require bigger holes than you would normally have. My first variant had too narrow holes so the sockets could not fit. 1.1mm in the second version was enough
+  * Use the thinnest sockets I could find - Peel-a-way sockets (https://keeb.io/products/peel-a-way-sockets-for-pro-micros). These seem to be difficult to source, luckily I got some beforehand. Note that these require bigger holes than you would normally have. My first variant had too narrow holes so the sockets could not fit. 1.1mm in the second version was enough:
+![images/socket.jpg]()
+![images/socket-soldered.jpg]()
   * Mount ProMicro upside down
   * Make a cutout in the PCB to fit the components on ProMicro
+![images/cutout-back.jpg]()
   * The cutout and the fact that ProMicro is stuck between switches and the end of the board made routing quite difficult. Leaving a bridge between the left and right pin columns helped, but common ways of making reversible PCBs couldn't work. There is no space for dual ProMicro footprint, and I cannot reverse the ProMicro either since it becomes too tall to fit. I didn't want to mount it below the PCB either since there's even less space there.
   * To make the PCB reversible, I ended up using different pinouts for the left and right halves. For example, the index finger column (CI) is connected to B2 on the left side, but is mirrored to B4 on the right. This solved most of the pins except a few that could not be reassigned, like VCC. For those, I added jumpers that are cut and soldered depending on which side is being built. For left side, you connect J1-J3 and cut J4-J6 (default). For the right side, you reverse.
  
-With this, ProMicro fits fairly comfortably.
-
 2. Fit a TRRS jack. The jack commonly used is even thicker than ProMicro with a socket. Luckily, it turned out there are special mid-mount jacks that mount into a cutout in the PCB: CUI Devices SJ-4350 series available on DigiKey, or PJ342C available on AliExpress (I got both; despite the differences in diagrams on seller sites, the ones I got look identical).
 
 3. Fit a reset button between the plates. This was straightforward, there's a number of thin tactile buttons available. I picked a small switch with button on the side. It turned out to be difficult to press, but I feel it's not a big deal since I don't use it often. Reset command can be added somewhere in the layout if needed.
+
+With this, everything fits between the plates comfortably:
+![images/sandwich-front.jpg]()
+![images/sandwich-side.jpg]()
