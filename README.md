@@ -35,4 +35,4 @@ With this, everything fits between the plates comfortably:
 ![](images/sandwich-front.jpg)
 ![](images/sandwich-side.jpg)
 
-Of course, I waste all this effort by almost always using the keyboard with tented legs, attached using magnets: [Things/Tented-base.stl].
+Of course, I waste all this effort by almost always using the keyboard with tented legs, attached using magnets: [Things/Tented-base.stl](Things/Tented-base.stl).
