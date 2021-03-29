@@ -5,7 +5,7 @@ Personalized split keyboard based on [Zebra](https://github.com/nezumee/zebra) e
 
 # Bill of material
 
-* PCB x2, switch plate PCB x2, bottom plate PCB x2 (see [gerbers](gerbers), all PCBs are reversible)
+* PCB x2, switch plate PCB x2, bottom plate PCB x2 (see [gerber](gerber), all PCBs are reversible)
 * ProMicro or equivalent x2 (if using something other than ProMicro, check if it will fit in the PCB cutout!)
 * Mid-mount TRRS jack x2 (https://www.digikey.com/en/products/detail/cui-devices/SJ-43504-SMT-TR/2625173 or PJ342C in https://www.aliexpress.com/item/1005001299482943.html)
 * Tactile switch x2 (https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVQ-P7C01P/4429458)
