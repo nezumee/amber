@@ -1,6 +1,8 @@
 # Amber
 Personalized split keyboard based on Zebra experimentation
 
+![](images/amber-tented.jpg)
+
 # Making a PCB sandwich keyboard starting with an ergogen definition
 The https://github.com/mrzealot/ergogen makes it easier to generate keyboard plates and PCBs.
 
