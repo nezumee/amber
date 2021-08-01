@@ -7,10 +7,11 @@ Personalized split keyboard based on [Zebra](https://github.com/nezumee/zebra) e
 
 * PCB x2, switch plate PCB x2, bottom plate PCB x2 (see [gerber](gerber), all PCBs are reversible)
 * ProMicro or equivalent x2 (if using something other than ProMicro, check if it will fit in the PCB cutout!)
+* Peel-A-Way sockets x48 pins (https://keeb.io/products/peel-a-way-sockets-for-pro-micros)
 * Mid-mount TRRS jack x2 (https://www.digikey.com/en/products/detail/cui-devices/SJ-43504-SMT-TR/2625173 or PJ342C in https://www.aliexpress.com/item/1005001299482943.html)
 * Tactile switch x2 (https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVQ-P7C01P/4429458)
 * RGB LED x2 (https://www.digikey.com/en/products/detail/inolux/HV-5RGB60/7604616 or compatible)
-* 1k Ohm resistor in 1206 size x2
+* 1k Ohm resistor in 1206 size x2 (or other value, depending on how bright you want the indicator LED to be)
 * EC11 rotary encoders x0-2
 * N4148 x32 in DO-35 (through hole) or SOD123 (surface mount) form factor
 * KailH sockets x32-34 (you need less than 34 if using encoders)
